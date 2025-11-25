@@ -1,1 +1,42 @@
-/* место для вашего кода */
+.header {
+height: 293px;
+padding: 0px 50px;
+}
+
+.header-menu {
+
+}
+
+.header-menu-list {
+
+}
+
+.header-menu-list-item {
+    list-style-type: disc;
+}
+
+.action-list-item {
+    list-style-type: none;
+}
+
+.action-list-item a {
+    text-decoration: none;
+}
+
+.header-menu-list-item-link{
+
+}
+
+.logo-black{
+
+}
+
+.logo-img-black {
+    width: 148px;
+    height: 105px;
+}
+
+.header-contacts {
+    width: 240px;
+    height: 98px;
+}
