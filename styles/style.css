@@ -61,11 +61,89 @@
 
 /* Блок шапки */ 
 
+/* Началос блока cover*/
 .cover {
     background-image: url("../images/cover.jpg");
-    height: 757px;
+    background-size: cover;
+    z-index: -2;
+    position: relative;
+    padding: 0 50px 50px;   
+    min-height: 757px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 106px;
+    
 }
 
+.overlay {
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 757px;
+    width: 1100px;
+    z-index: -1;
+
+}
+
+.cover-title {
+    min-height: 385px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    line-height: 115px;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.cover-title-word-ono {
+   letter-spacing: 30px;
+   justify-self: start;
+   
+}
+
+.cover-title-word-tebe {
+    letter-spacing: 30px;
+    justify-self: center;
+    width: 339px;
+}
+
+.cover-title-word-nado {
+    letter-spacing: 30px;
+    justify-self: end;
+    width: 387px;
+    
+}
 .description {
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-text {
+    font-size: 22px;
+    font-weight: normal;
+    word-spacing: 18px;
+    color: white;
+    
+    
+}
+
+.bet-button {
+    width: 256px;
+    height: 51px;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid white;
 
 }
+/* Конец блока cover*/
