@@ -148,7 +148,7 @@
 .lots {
     margin-top: 180px;
     padding: 0 24px;
-    height: 723px;
+    min-height: 723px;
 }
 
 .lots-header {
@@ -162,6 +162,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px; 
+    flex-wrap: wrap;
     list-style-type: none;
 }
 
